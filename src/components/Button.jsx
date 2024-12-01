@@ -1,3 +1,3 @@
-export default function Button() {
-  return <button className="btn btn-primary">Leggi di più</button>;
+export default function Button({ text }) {
+  return <button className="btn btn-primary">{text}</button>;
 }
