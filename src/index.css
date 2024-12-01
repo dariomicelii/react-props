@@ -1,0 +1,40 @@
+body {
+  background-color: lightgray;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER */
+
+header {
+  background-color: rgb(33, 33, 43);
+  color: aliceblue;
+  padding: 2px;
+}
+
+/* MAIN */
+
+.card {
+  max-width: 700px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: rgb(33, 33, 43);
+  color: aliceblue;
+  padding: 10px;
+  margin-top: auto;
+}
+
+footer p {
+  font-style: italic;
+}
