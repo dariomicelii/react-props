@@ -3,9 +3,9 @@ import "../data/posts";
 import { posts } from "../data/posts";
 export default function () {
   return (
-    <div className="row">
-      <div className="col-4">
-        <div className="container">
+    <section>
+      <div className="container d-flex align-items-center">
+        <div className="row row-cols-2 g-2">
           {posts.map((post) => (
             <Card
               key={post.id}
@@ -19,6 +19,6 @@ export default function () {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
