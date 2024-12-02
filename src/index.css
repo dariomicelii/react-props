@@ -23,7 +23,11 @@ header {
 /* MAIN */
 
 .card {
-  max-width: 700px;
+  width: 500px;
+}
+
+img {
+  object-fit: cover;
 }
 
 /* FOOTER */
